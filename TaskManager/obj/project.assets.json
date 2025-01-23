@@ -4047,11 +4047,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Проекты\\TaskManager\\TaskManager\\TaskManager\\TaskManager.csproj",
+      "projectUniqueName": "D:\\Проекты\\TaskManager\\TaskManager\\TaskManager.csproj",
       "projectName": "TaskManager",
-      "projectPath": "D:\\Проекты\\TaskManager\\TaskManager\\TaskManager\\TaskManager.csproj",
+      "projectPath": "D:\\Проекты\\TaskManager\\TaskManager\\TaskManager.csproj",
       "packagesPath": "C:\\Users\\Vokamrecom-PC\\.nuget\\packages\\",
-      "outputPath": "D:\\Проекты\\TaskManager\\TaskManager\\TaskManager\\obj\\",
+      "outputPath": "D:\\Проекты\\TaskManager\\TaskManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
