@@ -1,12 +1,57 @@
 ﻿@page
-@using TaskManager.Pages
 @model IndexModel
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home page";
 }
-<h1>Welcome to Task Manager</h1>
-<p>
-    <a asp-page="/Users/Register">Register</a> | 
-    <a asp-page="/Users/Login">Login</a> | 
-    <a asp-page="/Tasks/List">View Tasks</a>
-</p>
+
+@if (User.Identity.IsAuthenticated) 
+{
+    <h2>Welcome, @User.Identity.Name!</h2>
+
+
+    <form method="post" asp-page-handler="Logout">
+        <button type="submit" class="btn btn-danger">Logout</button>
+    </form>
+
+
+    <a href="/CreateTask" class="btn btn-primary mb-3">Create New Task</a>
+}
+else
+{
+    <a href="/Account/Login" class="btn btn-primary mb-3">Login</a>
+    <a href="/Account/Register" class="btn btn-secondary mb-3">Register</a>
+}
+
+<h2>All Tasks</h2>
+<div class="tasks-list">
+    @if (Model.Tasks != null && Model.Tasks.Count > 0)
+    {
+        foreach (var task in Model.Tasks)
+        {
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title">@task.Title</h3>
+                    <p class="card-text">@task.Description</p>
+                    <p><strong>Status:</strong> @task.Status</p>
+                    <p><strong>Created at:</strong> @task.CreatedAt</p>
+                    <p><strong>Due Date:</strong> @task.EstimatedCompletion</p>
+                    <p><strong>Created By:</strong> @task.CreatedBy</p>
+                    <a href="/TaskDetails/@task.Id" class="btn btn-info">View Details</a>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a href="/TaskEdit/@task.Id" class="btn btn-warning">Edit</a>
+                        <form method="post" asp-page-handler="Delete" class="d-inline">
+                            <input type="hidden" name="id" value="@task.Id" />
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                        <a href="/Comments?taskId=@task.Id" class="btn btn-secondary">Add Comment</a>
+                    }
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <p>No tasks available.</p>
+    }
+</div>

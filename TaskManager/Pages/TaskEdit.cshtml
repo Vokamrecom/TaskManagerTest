@@ -1,0 +1,34 @@
+﻿@page "/TaskEdit/{id:int}"
+@model TaskManager.Pages.TaskEditModel
+@{
+    ViewData["Title"] = "Edit Task";
+}
+
+
+<form method="post">
+    <div class="form-group">
+        <label for="Title">Task Title</label>
+        <input type="text" class="form-control" id="Title" asp-for="Task.Title" required />
+        <span asp-validation-for="Task.Title" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Description">Task Description</label>
+        <textarea class="form-control" id="Description" asp-for="Task.Description" rows="4" required></textarea>
+        <span asp-validation-for="Task.Description" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Status">Task Status</label>
+        <select asp-for="Task.Status" class="form-control">
+            <option value="Created">Created</option>
+            <option value="InProgress">In Progress</option>
+            <option value="Closed">Closed</option>
+        </select>
+        <span asp-validation-for="Task.Status" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="EstimatedCompletion">Due Date</label>
+        <input type="date" class="form-control" id="EstimatedCompletion" asp-for="Task.EstimatedCompletion" required />
+        <span asp-validation-for="Task.EstimatedCompletion" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</form>

@@ -1,19 +1,18 @@
-﻿namespace TaskManager.Data
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace TaskManager.Data
 {
     public class Task
     {
         public int Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
+        public Enums.TaskStatus Status { get; set; }
         public DateTime CreatedAt { get; set; }
-        public DateTime? CompletedAt { get; set; }
-        public TaskStatus Status { get; set; }
-        public DateTime? EstimatedCompletionTime { get; set; }
-        public TimeSpan? ActualCompletionTime { get; set; }
-
-        public int CreatorId { get; set; }
-        public User Creator { get; set; }
-
-        public ICollection<Comment> Comments { get; set; } = new List<Comment>();
+        public DateTime EstimatedCompletion { get; set; }
+        public DateTime? ActualCompletion { get; set; }
+        public int UserId { get; set; }
+        public User User { get; set; }
+        public List<Comment> Comments { get; set; } = new List<Comment>();
     }
 }

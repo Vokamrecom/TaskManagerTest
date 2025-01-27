@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "D:\\Проекты\\TaskManager\\TaskManager\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TaskManager.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TaskManager.zjkr07rejo.bundle.scp.css"
+    },
+    {
       "Id": "D:\\Проекты\\TaskManager\\TaskManager\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

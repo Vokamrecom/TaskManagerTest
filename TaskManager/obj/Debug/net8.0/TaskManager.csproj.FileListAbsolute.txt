@@ -289,7 +289,15 @@ D:\Проекты\TaskManager\TaskManager\obj\Debug\net8.0\staticwebassets\msbui
 D:\Проекты\TaskManager\TaskManager\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TaskManager.props
 D:\Проекты\TaskManager\TaskManager\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TaskManager.props
 D:\Проекты\TaskManager\TaskManager\obj\Debug\net8.0\staticwebassets.pack.json
-D:\Проекты\TaskManager\TaskManager\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Проекты\TaskManager\TaskManager\obj\Debug\net8.0\TaskMana.F3FB485A.Up2Date
 D:\Проекты\TaskManager\TaskManager\obj\Debug\net8.0\TaskManager.genruntimeconfig.cache
 D:\Проекты\TaskManager\TaskManager\obj\Debug\net8.0\ref\TaskManager.dll
+D:\Проекты\TaskManager\TaskManager\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\Проекты\TaskManager\TaskManager\bin\Debug\net8.0\Castle.Core.dll
+D:\Проекты\TaskManager\TaskManager\bin\Debug\net8.0\FluentValidation.dll
+D:\Проекты\TaskManager\TaskManager\bin\Debug\net8.0\MediatR.dll
+D:\Проекты\TaskManager\TaskManager\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\Проекты\TaskManager\TaskManager\bin\Debug\net8.0\Moq.dll
+D:\Проекты\TaskManager\TaskManager\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\Проекты\TaskManager\TaskManager\obj\Debug\net8.0\scopedcss\projectbundle\TaskManager.bundle.scp.css
+D:\Проекты\TaskManager\TaskManager\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

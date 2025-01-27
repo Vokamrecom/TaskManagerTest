@@ -1,0 +1,43 @@
+﻿
+@page "/TaskDetails/{id:int}"
+@model TaskManager.Pages.TaskDetailsModel
+@{
+    ViewData["Title"] = "Task Details";
+}
+
+
+<div>
+    <h3>@Model.Task.Task.Title</h3>
+    <p><strong>Description:</strong> @Model.Task.Task.Description</p>
+    <p><strong>Status:</strong> @Model.Task.Task.Status</p>
+    <p><strong>Created At:</strong> @Model.Task.Task.CreatedAt</p>
+    <p><strong>Due Date:</strong> @Model.Task.Task.EstimatedCompletion</p>
+    @* <p><strong>Created By:</strong> @Model.Task.User.Username</p> *@
+</div>
+
+<h3>Comments</h3>
+<div>
+    @if (Model.Comments != null && Model.Comments.Any())
+    {
+        foreach (var comment in Model.Comments)
+        {
+            <div class="mb-2">
+                <p><strong>@comment.UserName:</strong> @comment.Content</p>
+                <p class="text-muted"><small>@comment.CreatedAt</small></p>
+            </div>
+        }
+    }
+    else
+    {
+        <p>No comments available.</p>
+    }
+
+    @* <form method="post">
+        <div class="form-group">
+            <label for="NewComment">Add a Comment</label>
+            <textarea asp-for="NewComment" class="form-control" id="NewComment" rows="3"></textarea>
+            <span asp-validation-for="NewComment" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form> *@
+</div>

@@ -1,0 +1,29 @@
+﻿@page
+@model TaskManager.Pages.CommentsModel
+@{
+    ViewData["Title"] = "Task Comments";
+}
+
+<div class="container">
+    <h2>Comments for Task: @Model.TaskTitle</h2>
+
+    <div class="comments-list">
+        @foreach (var comment in Model.Comments)
+        {
+            <div class="comment">
+                <p><strong>@comment.UserName:</strong> @comment.Content</p>
+                <p class="text-muted"><small>@comment.CreatedAt</small></p>
+            </div>
+        }
+    </div>
+
+
+    <form method="post">
+        <div class="form-group">
+            <label for="newComment">Add a Comment</label>
+            <textarea asp-for="NewComment" class="form-control" id="newComment" rows="3"></textarea>
+            <span asp-validation-for="NewComment" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

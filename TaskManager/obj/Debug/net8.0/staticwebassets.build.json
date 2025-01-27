@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sHAdI3D+bPISInL7CESMm7tyePFMOxkEG3/tgi+T7s8=",
+  "Hash": "rwyJvkL/wNlkxuiUh67bTfS2Onl6wGjXlFDLt+l6UWI=",
   "Source": "TaskManager",
   "BasePath": "_content/TaskManager",
   "Mode": "Default",
@@ -16,6 +16,48 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\Проекты\\TaskManager\\TaskManager\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TaskManager.styles.css",
+      "SourceId": "TaskManager",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Проекты\\TaskManager\\TaskManager\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/TaskManager",
+      "RelativePath": "TaskManager#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "zjkr07rejo",
+      "Integrity": "MbMA4EFXYgr67ch5j78XgJAwCLV0+7ldnnPfkPI+Lwk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Проекты\\TaskManager\\TaskManager\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TaskManager.styles.css"
+    },
+    {
+      "Identity": "D:\\Проекты\\TaskManager\\TaskManager\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TaskManager.bundle.scp.css",
+      "SourceId": "TaskManager",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Проекты\\TaskManager\\TaskManager\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/TaskManager",
+      "RelativePath": "TaskManager#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "zjkr07rejo",
+      "Integrity": "MbMA4EFXYgr67ch5j78XgJAwCLV0+7ldnnPfkPI+Lwk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Проекты\\TaskManager\\TaskManager\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TaskManager.bundle.scp.css"
+    },
     {
       "Identity": "D:\\Проекты\\TaskManager\\TaskManager\\wwwroot\\css\\site.css",
       "SourceId": "TaskManager",
@@ -6195,6 +6237,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+        }
+      ]
+    },
+    {
+      "Route": "TaskManager.bundle.scp.css",
+      "AssetFile": "D:\\Проекты\\TaskManager\\TaskManager\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TaskManager.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MbMA4EFXYgr67ch5j78XgJAwCLV0+7ldnnPfkPI+Lwk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 07:53:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MbMA4EFXYgr67ch5j78XgJAwCLV0+7ldnnPfkPI+Lwk="
+        }
+      ]
+    },
+    {
+      "Route": "TaskManager.styles.css",
+      "AssetFile": "D:\\Проекты\\TaskManager\\TaskManager\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TaskManager.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MbMA4EFXYgr67ch5j78XgJAwCLV0+7ldnnPfkPI+Lwk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 07:53:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MbMA4EFXYgr67ch5j78XgJAwCLV0+7ldnnPfkPI+Lwk="
+        }
+      ]
+    },
+    {
+      "Route": "TaskManager.zjkr07rejo.bundle.scp.css",
+      "AssetFile": "D:\\Проекты\\TaskManager\\TaskManager\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TaskManager.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MbMA4EFXYgr67ch5j78XgJAwCLV0+7ldnnPfkPI+Lwk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 07:53:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zjkr07rejo"
+        },
+        {
+          "Name": "label",
+          "Value": "TaskManager.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MbMA4EFXYgr67ch5j78XgJAwCLV0+7ldnnPfkPI+Lwk="
+        }
+      ]
+    },
+    {
+      "Route": "TaskManager.zjkr07rejo.styles.css",
+      "AssetFile": "D:\\Проекты\\TaskManager\\TaskManager\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TaskManager.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MbMA4EFXYgr67ch5j78XgJAwCLV0+7ldnnPfkPI+Lwk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 07:53:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zjkr07rejo"
+        },
+        {
+          "Name": "label",
+          "Value": "TaskManager.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MbMA4EFXYgr67ch5j78XgJAwCLV0+7ldnnPfkPI+Lwk="
         }
       ]
     }
